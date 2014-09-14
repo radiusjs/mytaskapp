@@ -1,18 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-	<meta charset="utf-8">
-	<title>taksAPP</title>
-	<link rel="stylesheet" href="stylesheet" type="text/css"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- layout.css -->
+    <link href="css/layout.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-	<body id="taskapp" onload="">
- 	<header class="pure-g>
-	<div id="username" class="pure-u-1-3">
-		<span>Username</span>	
-	</div>
-	<div id="login" class="pure-u-2-3">
-	<a href="#" target="_blank">Anmelden</a>	
-	</div>
-</header>
-</body>
+  <body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Taskstix</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+						<li><a href="#">User Name</a></li>
+            <li><a href="Sign_in">Sign in</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+		<div id="content" class="container">
+			<div id="pageHeader" class="page-header"> 
+				<p>Tasks</p>
+			</div>
+			<div id="taskList" class="lead">
+				<div id="taskOne" class="container"> 
+					
+					<div class="col-xs-8">
+						<input type="text" placeholder="1. Task" class="form-control"/>
+					</div>
+					<div id="name" class="col-xs-4">
+						<button type="button" class="btn btn-primary btn-xs btn-block btn-success">done</button>
+					</div>
+
+				</div>
+
+				<div id="taskOne" class="container"> 
+					
+					<div class="col-xs-8">
+						<input type="text" placeholder="1. Task" class="form-control"/>
+					</div>
+					<div id="name" class="col-xs-4">
+						<button type="button" class="btn btn-primary btn-xs btn-block btn-danger">undone</button>
+					</div>
+
+				</div>
+
+				<div id="taskOne" class="container"> 
+					
+					<div class="col-xs-8">
+						<input type="text" placeholder="1. Task" class="form-control"/>
+					</div>
+					<div id="name" class="col-xs-4">
+						<button type="button" class="btn btn-primary btn-xs btn-block btn-danger">undone</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div id="footer" class="footer">
+			<div class="container">
+					<p>
+						<a href="http://www.url.com/about" target="_blank" alt="About Link">About</a>
+					</p> 
+			</div>
+		</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,0 +1,27 @@
+body > .container {
+	padding: 60px 15px 0px;
+}
+
+div#taskList .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div#taskList div {
+	padding-left: 0px;
+	padding-right: 15px;
+	
+}
+
+.undoneButton {
+	background-color: red;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #F5F5F5;
+}
+
+
