@@ -5,4 +5,4 @@ Me first App on GitHub to learn web app programming. It will be a simpel, small 
 * Mobilfirst
 * Offlinefirst
 * Hoodie
-* pure.css
+* Bootstrap
